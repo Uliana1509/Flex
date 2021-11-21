@@ -1,0 +1,82 @@
+header {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+header nav ul {
+  padding: 0;
+
+  margin-left: 3.8vw;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+header nav ul li:not(:last-child) {
+  margin-right: 2.1vw;
+}
+header .lang {
+  margin-left: 2.1vw;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: var(--black);
+}
+
+header .icons {
+  display: flex;
+  align-items: center;
+
+  margin-left: 2.1vw;
+}
+
+header .icons img:not(:last-child) {
+  margin-right: 47px;
+}
+
+header button {
+  background: var(--orange);
+  border-radius: 38px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: var(--black);
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  border: none;
+
+  margin-left: 2.1vw;
+}
+
+header .phones {
+  margin-left: auto;
+}
+
+header .phones a {
+  display: block;
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: var(--black);
+}
